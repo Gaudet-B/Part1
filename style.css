@@ -1,0 +1,45 @@
+* {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content {
+    height: 100px;
+    width: 400px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+h2 {
+    flex: 3;
+}
+
+.row p {
+    flex: 2;
+}
+
+.filler {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#like {
+    height: 30px;
+    border: 2px solid black;
+    background-color: gold;
+    box-shadow: 3px 3px 0px black;
+    flex: 1;
+}
